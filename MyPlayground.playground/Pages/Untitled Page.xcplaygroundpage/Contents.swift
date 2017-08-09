@@ -11,7 +11,7 @@ yourAge=30
 var myInt:Int=987645321456789456
 
 var ssInt:Int8=127
-var sInt:Int16=32767
+var sInt:Int16=32767ß
 var mInt:Int32=1234567
 var lInt:Int64=1234567891234567891
 
