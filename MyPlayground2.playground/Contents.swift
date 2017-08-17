@@ -265,3 +265,13 @@ func setNameAndAge(user:String, age:Int=0) {
 setNameAndAge(user: "홍길동")
 setNameAndAge(user: "김길동", age: 30)
 
+
+func addNum(num1:inout Int, num2:Int) {
+    num1 = num1+num2
+}
+
+var num:Int=10
+addNum(num1: &num, num2: 5)
+print(num)
+
+
